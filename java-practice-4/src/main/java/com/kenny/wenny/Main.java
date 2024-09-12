@@ -1,11 +1,11 @@
 package com.kenny.wenny;
 
 import com.kenny.wenny.pcgame.PacMan;
-import com.kenny.wenny.practice.CalculatorUtil;
+import com.kenny.wenny.pcgame.PcGame;
 
 public class Main {
     public static void main(String[] args) {
-        var game = new PacMan();
+        PcGame game = new PacMan();
         System.out.println(game.getGameName());
         System.out.println(game.getEndCredits());
         game.runGame();

@@ -1,6 +1,6 @@
 package com.kenny.wenny.pcgame;
 
-public class PacMan extends PcGame {
+public class PacMan extends PcGameImpl {
     @Override
     public String getGameName() {
         return "PAC MAN, yay";

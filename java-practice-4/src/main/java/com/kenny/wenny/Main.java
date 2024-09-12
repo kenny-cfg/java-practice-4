@@ -1,11 +1,14 @@
 package com.kenny.wenny;
 
+import com.kenny.wenny.pcgame.PacMan;
 import com.kenny.wenny.practice.CalculatorUtil;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println(CalculatorUtil.equalsSum(2, 1, 1));
-        System.out.println(CalculatorUtil.equalsSum(2, 3, 4));
+        var game = new PacMan();
+        System.out.println(game.getGameName());
+        System.out.println(game.getEndCredits());
+        game.runGame();
     }
 }
 

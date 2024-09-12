@@ -6,6 +6,20 @@ public enum DaysOfWeek {
     WEDNESDAY,
     THURSDAY,
     FRIDAY,
-    SATURDAY,
-    SUNDAY
+    SATURDAY(false),
+    SUNDAY(false);
+
+    private final boolean isWorkingDay;
+
+    DaysOfWeek() {
+        this(true);
+    }
+
+    DaysOfWeek(boolean isWorkingDay) {
+        this.isWorkingDay = isWorkingDay;
+    }
+
+    public boolean getIsWorkingDay() {
+        return isWorkingDay;
+    }
 }

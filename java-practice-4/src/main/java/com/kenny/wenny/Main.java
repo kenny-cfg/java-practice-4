@@ -1,12 +1,11 @@
 package com.kenny.wenny;
 
-import com.kenny.wenny.days.DayGreeter;
-import com.kenny.wenny.days.DaysOfWeek;
+import com.kenny.wenny.cfg.JavaMasters;
 
 public class Main {
     public static void main(String[] args) {
-        var greeter = new DayGreeter();
-        greeter.greet(DaysOfWeek.MONDAY);
-        greeter.greet(DaysOfWeek.SATURDAY);
+        var cfgClass = JavaMasters.getInstance();
+        var cfgClass2 = JavaMasters.getInstance();
+        var cfgClass3 = JavaMasters.getInstance();
     }
 }

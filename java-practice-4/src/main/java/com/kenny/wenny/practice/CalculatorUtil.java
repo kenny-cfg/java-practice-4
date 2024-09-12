@@ -1,4 +1,4 @@
-package com.kenny.wenny;
+package com.kenny.wenny.practice;
 
 public class CalculatorUtil {
     // Primitive obsession!

@@ -1,5 +1,7 @@
 package com.kenny.wenny;
 
+import com.kenny.wenny.practice.CalculatorUtil;
+
 public class Main {
     public static void main(String[] args) {
         System.out.println(CalculatorUtil.equalsSum(2, 1, 1));

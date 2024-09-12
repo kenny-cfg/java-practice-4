@@ -9,6 +9,7 @@ public class Main {
         System.out.println(game.getGameName());
         System.out.println(game.getEndCredits());
         game.runGame();
+        game.rollEndCredits();
     }
 }
 

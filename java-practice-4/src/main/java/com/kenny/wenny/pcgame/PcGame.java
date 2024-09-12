@@ -1,7 +1,7 @@
 package com.kenny.wenny.pcgame;
 
 public abstract class PcGame {
-    private String endCredits = "These are the end credits";
+    private final String endCredits = "These are the end credits";
 
     public String getEndCredits() {
         return endCredits;
